@@ -17,7 +17,7 @@ export default function Home() {
 ">Rebel Tech Solutions</h1>
 <h2 className="text-yellow-400 pt-44 text-center item-center">Data Science | Ethical Hacking  | Development  | Automatication Test </h2>
 </div>
-<a className=" h-50 pt-44 pb-0 text-center items-center" href="#">© 2023 know how solutions. All rights reserved.</a>
+<a className=" h-50 pt-44 pb-0 text-center items-center" href="#">© 2023 Rebel Tech Solutions. All rights reserved.</a>
     </main>
   )
 }
