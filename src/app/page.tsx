@@ -7,7 +7,7 @@ const Page: React.FC = () => {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
       <Image src={logoRebel} alt="Logo" className="centered-logo" />
-        <h1 className="text-yellow-400 pt-44 text-center item-center">
+        <h1 className="text-yellow-400 pt-44 text-center item-center text-3xl">
         Development | Cybersecurity | Data 
         </h1>
       </div>
