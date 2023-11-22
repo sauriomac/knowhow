@@ -8,7 +8,7 @@ const Page: React.FC = () => {
       <div>
       <Image src={logoRebel} alt="Logo" className="centered-logo" />
         <h1 className="text-yellow-400 pt-44 text-center item-center text-3xl">
-        Development | Cybersecurity | Data 
+        Development | Data | Cybersecurity 
         </h1>
       </div>
       <a className="h-50 pt-44 pb-0 text-center items-center text-white" href="#">
