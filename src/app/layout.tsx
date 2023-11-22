@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Rebel Tech Solutions',
-  description: 'Data Science | Ethical Hacking | Development | Automatication Test',
+  description: 'Development | Cybersecurity | Data',
 }
 
 export default function RootLayout({
