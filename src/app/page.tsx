@@ -11,7 +11,7 @@ const Page: React.FC = () => {
         Development | Cybersecurity | Data 
         </h1>
       </div>
-      <a className="h-50 pt-44 pb-0 text-center items-center" href="#">
+      <a className="h-50 pt-44 pb-0 text-center items-center text-white" href="#">
         © 2023 Rebel Tech Solutions. All rights reserved.
       </a>
     </main>
