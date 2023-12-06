@@ -12,7 +12,7 @@ const Page: React.FC = () => {
     </h1>
   </div>
   <a className="w-full pt-12 pb-12 md:pt-44  text-center text-white" href="#">
-    © 2023 Rebel Tech Solutions. All rights reserved.
+    © 2023 RebelTech Solutions. All rights reserved.
   </a>
 </main>
   );
