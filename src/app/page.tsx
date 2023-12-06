@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const Page: React.FC = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-black">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 h-screen bg-custom-linear">
       <div>
-      <Image src={logoRebel} alt="Logo" className="centered-logo mt-56" />
+      <Image src={logoRebel} alt="Logo" className="centered-logo mt-36" />
         <h1 className="text-yellow-400 pt-44 text-center item-center text-3xl">
         Development | Data | Cybersecurity 
         </h1>
