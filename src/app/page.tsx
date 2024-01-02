@@ -1,4 +1,4 @@
-import logoRebel from './logo.png'
+import logoRebel from './logo.png';
 import Image from 'next/image';
 
 
