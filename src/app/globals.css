@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.rt-nav{
+  background-color: transparent;
+  height: 62px;
+    line-height: initial;
+}
