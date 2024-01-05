@@ -30,7 +30,7 @@ const Page: React.FC = () => {
     </nav>
 
     <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16" />
-    <div className='flex flex-col md:flex md:mt-20 mt-20'>
+    <div className='flex flex-col lg:flex-row mt-20'>
       <div className='w-full md:w-1/2 px-4 md:px-16 lg:mr-0'>
         <p className=' lg:text-[28px] lg:w1/1 lg:mx-8 font-semibold'>¿Cómo asegurarás la excelencia 
         operativa en un mundo digital que evoluciona constantemente?</p>
