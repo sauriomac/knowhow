@@ -125,9 +125,9 @@ const Page: React.FC = () => {
           <div className="flex flex-col space-y-2 px-20">
             {/* Columna central */}
             <p className="font-bold">Email</p>
-            <p>Inquire: sales@xcitium.com</p>
-            <p>Support: support@xcitium.com</p>
-            <p>Report Bugs: security@xcitium.com</p>
+            <p>Contact: soporte@rebeltechsolutions.cl</p>
+            <p>Support: soporte@rebeltechsolutions.cl</p>
+            <p>Sales: sales@rebeltechsolutions.cl</p>
           </div>
           <div className="flex flex-col space-y-2 px-20">
             {/* Columna derecha */}
