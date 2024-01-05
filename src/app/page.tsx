@@ -37,7 +37,7 @@ const Page: React.FC = () => {
         <p className='lg:text-[20px] mt-8 text-left'>En RebelTech Solutions, fusionamos desarrollo de software ágil, ciberseguridad proactiva y análisis de datos avanzados para ofrecer soluciones integrales. Nuestros métodos de desarrollo robustos mantienen la funcionalidad crítica, nuestra ciberseguridad con ZeroDwell de Xcitium detiene daños cibernéticos antes de que sucedan y nuestras innovaciones en Data Science transforman grandes datos en decisiones estratégicas. Superamos los desafíos tecnológicos, incluso cuando las estrategias tradicionales no son suficientes</p>
       </div>
       <div className='w-full md:flex md:w-1/2'>
-        <Image src={robotImg} alt="Robot" className="w-1/2 md:w-3/4 mx-auto" />
+        <Image src={robotImg} alt="Robot" className="w-1/2 md:w-3/4 mx-auto mt-20 md:mt-0" />
       </div>
     </div>
 
