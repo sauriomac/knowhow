@@ -15,6 +15,9 @@ const config: Config = {
         'custom-linear': 'linear-gradient(180deg, #201f1f, #010620, #21317b, #7d3160, #d10404, #ef0000)',
 
       },
+      colors: {
+        brightRed: '#ef0000', // Tu color personalizado
+      },
     },
   },
   plugins: [],

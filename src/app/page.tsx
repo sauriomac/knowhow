@@ -109,18 +109,18 @@ const Page: React.FC = () => {
           <Image src={logoSendm} alt="Logo" className="mx-auto w-1/4 mt-24" />
         </div>
       </div>
-      <footer className="w-full mt-24 bg-red-600 text-white p-12 px-20">
+      <footer className="w-full mt-24 bg-brightRed text-white p-12 px-20">
         <div className="mx-auto grid grid-cols-3 gap-4">
           <div className='col-span-3'>
             <Image src={logoRebelBl} alt="Logo" className="w-1/5 mb-5" />
           </div>
           <div className="flex flex-col space-y-2 px-10">
             {/* Columna izquierda */}
-            <p>200 Broadacres Drive,</p>
-            <p>Bloomfield, NJ 07003</p>
-            <p>Sales (US): +1 (973) 859-4000</p>
-            <p>Sales (Int): +1 (888) 551-1530</p>
-            <p>Support: +1 (973) 396-1232</p>
+            <p>LOS MILITARES 5620 Depto 905, </p>
+            <p>LAS CONDES SANTIAGO</p>
+            <p>Sales (cl): +56 9 7518 0082</p>
+            <p>Sales (Uk): +380 96 356 1245</p>
+            <p>Operaciones (Int): +56 9 6122 9110</p>
           </div>
           <div className="flex flex-col space-y-2 px-20">
             {/* Columna central */}
