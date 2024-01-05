@@ -1,6 +1,6 @@
 import logoRebel from './logo.png';
 import logoRebelBl from './logo-blanco.png';
-import robotImg from './11.png';
+import robotImg from './11-1.png';
 import Image from 'next/image';
 import square1 from './33.png';
 import square2 from './55.png';
