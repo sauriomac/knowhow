@@ -16,7 +16,7 @@ const config: Config = {
 
       },
       colors: {
-        brightRed: '#ef0000', // Tu color personalizado
+        brightRed: '#db0202', // Tu color personalizado
       },
     },
   },
