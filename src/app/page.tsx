@@ -45,7 +45,7 @@ const Page: React.FC = () => {
       <div className=' md:w-1/3 m-4'>
         <Image src={square1} alt="Logo" className="mx-auto w-1/2 lg:w-2/4 mt-16" />
         <div className='-mt-28 bg-violet-700 rounded-[50px] min-h-[400px] pt-24 p-8 md:p-16'>
-          <p className='mt-6 md:text-[26px] font-semibold'>
+          <p className='mt-6 md:text-[26px] md:mt-12 font-semibold'>
             Desarrollo de Software
           </p>
           <p className=' md:text-[19px] mt-4'>"Innovación en cada línea de código. Desarrollo de software a la medida de tus necesidades empresariales. RebelTech Solutions Donde las ideas se convierten en realidad."</p>
@@ -54,7 +54,7 @@ const Page: React.FC = () => {
       <div className=' md:w-1/3 m-4'>
         <Image src={square2} alt="Logo" className="mx-auto w-1/2 lg:w-2/4 mt-16" />
         <div className='-mt-28 bg-violet-700 rounded-[50px] min-h-[400px] pt-24 p-8 md:p-16'>
-          <p className='mt-6 md:text-[26px] font-semibold'>
+          <p className='mt-6 md:text-[26px] md:mt-12 font-semibold'>
             Servicio de Ciberseguridad
           </p>
           <p className=' md:text-[19px] mt-6'>"Blindaje digital con Xcitium. Explora la ciberseguridad que protege y empodera tu empresa. En RebelTech Solutions, la seguridad es nuestra prioridad."</p>
@@ -63,7 +63,7 @@ const Page: React.FC = () => {
       <div className=' md:w-1/3 m-4'>
         <Image src={square3} alt="Logo" className="mx-auto w-1/2 lg:w-2/4 mt-16" />
         <div className='-mt-28 bg-violet-700 rounded-[50px] min-h-[400px] pt-24 p-8 md:p-16'>
-          <p className=' md:text-[26px] font-semibold m-6'>Soluciones de Data</p>
+          <p className=' md:text-[26px] font-semibold m-6 md:mt-12'>Soluciones de Data</p>
           <p className='mt-6 md:text-[19px]'>Inteligencia de datos, estrategias inteligentes. Expertos en Data Science desbloqueando insights para el éxito de tu negocio. RebelTech Solutions Impulsando la innovación basada en datos."</p>
         </div>
       </div>
