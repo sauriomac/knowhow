@@ -30,14 +30,14 @@ const Page: React.FC = () => {
     </nav>
 
     <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16" />
-    <div className='flex flex-col lg:flex-row mt-20'>
-      <div className='w-full md:w-1/2 px-4 md:px-16 lg:mr-0'>
+    <div className='flex flex-col md:flex-row mt-20'>
+      <div className='w-full md:w-1/2 px-4 md:px-16 md:ml-52'>
         <p className=' lg:text-[28px] lg:w1/1 lg:mx-8 font-semibold'>¿Cómo asegurarás la excelencia 
         operativa en un mundo digital que evoluciona constantemente?</p>
         <p className='lg:text-[20px] mt-8 text-left'>En RebelTech Solutions, fusionamos desarrollo de software ágil, ciberseguridad proactiva y análisis de datos avanzados para ofrecer soluciones integrales. Nuestros métodos de desarrollo robustos mantienen la funcionalidad crítica, nuestra ciberseguridad con ZeroDwell de Xcitium detiene daños cibernéticos antes de que sucedan y nuestras innovaciones en Data Science transforman grandes datos en decisiones estratégicas. Superamos los desafíos tecnológicos, incluso cuando las estrategias tradicionales no son suficientes</p>
       </div>
       <div className='w-full md:flex md:w-1/2'>
-        <Image src={robotImg} alt="Robot" className="w-1/2 md:w-3/4 mx-auto mt-20 md:mt-0" />
+        <Image src={robotImg} alt="Robot" className="w-1/2 md:w-1/2 mt-20 md:mt-0" />
       </div>
     </div>
 
