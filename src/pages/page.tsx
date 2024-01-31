@@ -1,34 +1,21 @@
-import logoRebel from './logo.png';
-import logoRebelBl from './logo-blanco.png';
-import robotImg from './11-1.png';
+import logoRebel from '../public/logo.png';
+import logoRebelBl from '../public/logo-blanco.png';
+import robotImg from '../public/11-1.png';
 import Image from 'next/image';
-import square1 from './33.png';
-import square2 from './55.png';
-import square3 from './44.png';
-import logoExc from './logo-xcitium.001.png';
-import logoSendm from './logo-sendmarc.png';
+import square1 from '../public/33.png';
+import square2 from '../public/55.png';
+import square3 from '../public/44.png';
+import logoExc from '../public/logo-xcitium.001.png';
+import logoSendm from '../public/logo-sendmarc.png';
 
 
 
 const Page: React.FC = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between w-full bg-custom-linear">
+    <>
   <div className="w-full text-center pt-12">
-    <nav className="bg-gray-800 p-4 flex justify-between rt-nav flex-col md:flex-row">
-      <div className="flex w-full md:w-2/12">
-      </div>
-      <div className="flex w-full md:w-8/12 justify-center flex-wrap">
-        <a href="#inicio" className="text-white px-3 text-xs md:text-[26px] font-medium border-r-2">Inicio</a>
-        <a href="#quienes-somos" className="text-white px-3 text-xs md:text-[26px] font-medium border-r-2">Quiénes Somos</a>
-        <a href="#soluciones" className="text-white px-3 text-xs md:text-[26px] font-medium border-r-2">Soluciones</a>
-        <a href="#contacto" className="text-white px-3 text-xs md:text-[26px] font-medium">Contacto</a>
-      </div>
-      <div className="hidden md:flex md:w-1/12">
-        <a href="#en" className="text-white px-3  md:text-[26px] font-medium border-r-2">EN</a>
-        <a href="#es" className="text-white px-3  md:text-[26px] font-medium">ES</a>
-      </div>
-    </nav>
-
+   
+    
     <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16" />
     <div className='flex flex-col md:flex-row mt-20'>
       <div className='w-full md:w-1/2 px-4 md:px-16 md:ml-52'>
@@ -110,8 +97,7 @@ const Page: React.FC = () => {
     <p className="text-xs md:text-base">Copyright © {new Date().getFullYear()} RebelTech Solutions All Rights Reserved</p>
   </div>
 </footer>
-
-</main>
+</>
 
   );
 };
