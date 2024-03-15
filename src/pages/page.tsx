@@ -34,7 +34,7 @@ const Page: React.FC = () => {
           <p className='mt-6 md:text-[26px] md:mt-12 font-semibold text-yellow-500	'>
             Desarrollo de Software
           </p>
-          <p className=' md:text-[19px] mt-6'>Innovación en cada línea de código. Desarrollo de software a la medida de tus necesidades empresariales. RebelTech Solutions</p>
+          <p className=' md:text-[19px] mt-6'>Innovación en cada línea de código. Desarrollo de software a la medida de tus necesidades empresariales.</p>
         </div>
       </div>
       <div className=' md:w-1/3 m-4 mt-2'>
