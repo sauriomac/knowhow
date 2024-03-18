@@ -35,28 +35,28 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="flex w-full md:w-2/12">
           </div>
           <div className="flex w-full md:w-8/12 justify-center flex-wrap">
-            <Link href="/" className="text-white px-3 text-xs md:text-[26px] font-medium border-r-2">Inicio</Link>
-            <Link href="/#" className="text-white px-3 text-xs md:text-[26px] font-medium border-r-2"> Quiénes Somos</Link>
+            <Link href="/" className="text-white px-3  md:text-[26px] font-medium border-r-2">Inicio</Link>
+            <Link href="/#" className="text-white px-3  md:text-[26px] font-medium border-r-2"> Quiénes Somos</Link>
             <div className="relative">
-              <button onClick={toggleSubMenu} className="text-white px-3 text-xs md:text-[26px] font-medium border-r-2">Soluciones</button>
+              <button onClick={toggleSubMenu} className="text-white px-3 md:text-[26px] font-medium border-r-2 h-[30px]">Soluciones</button>
               {/* Submenú */}
               {isSubMenuVisible && (
                 <div className="absolute left-0 mt-2 bg-gray-700 w-40">
-                  <Link href="/#" className="block text-white px-3 py-2 text-xs md:text-sm hover:text-fuchsia-600">Data</Link>
-                  <Link href="/#" className="block text-white px-3 py-2 text-xs md:text-sm hover:text-fuchsia-600">Desarrollo</Link>
+                  <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600">Data</Link>
+                  <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600">Desarrollo</Link>
                   <div className="relative">
                     <button onClick={toggleSecondLevelMenu} className="hover:text-fuchsia-600  block text-white px-3 py-2 text-xs md:text-sm w-full">Ciberseguridad</button>
                     {isSecondLevelMenuVisible && (
                       <div className="absolute left-full top-0 bg-gray-700 w-40">
-                        <Link href="/#" className="block text-white px-3 py-2 text-xs md:text-sm hover:text-fuchsia-600 ">Xcitium</Link>
-                        <Link href="/#" className="block text-white px-3 py-2 text-xs md:text-sm hover:text-fuchsia-600 ">Sendmarc</Link>
+                        <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600 ">Xcitium</Link>
+                        <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600 ">Sendmarc</Link>
                       </div>
                     )}
                   </div>
                 </div>
               )}
             </div>
-            <Link href="/#" className="text-white px-3 text-xs md:text-[26px] font-medium ">Contacto</Link>
+            <Link href="/#" className="text-white px-3 md:text-[26px] font-medium ">Contacto</Link>
           </div>
           <div className="hidden md:flex md:w-1/12">
             <a href="#" className="text-white px-3  md:text-[26px] font-medium "></a>
