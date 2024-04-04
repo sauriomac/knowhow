@@ -1,6 +1,6 @@
 
 import Image from 'next/image';
-import logoExc from '../public/logo-xcitium.001.png';
+import logoExc from '../public/Xcitium-Logo2.png';
 import logoTree from '../public/tree.png';
 import logoCircle from '../public/circle.png';
 
