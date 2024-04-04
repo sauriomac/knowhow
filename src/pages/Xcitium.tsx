@@ -71,7 +71,7 @@ const Xcitium: React.FC = () => {
                 <p className="text-[24px] px-2">
                     Nuestra asociación con Xcitium refuerza nuestro compromiso con la excelencia en
                     ciberseguridad, permitiéndonos ofrecer soluciones de seguridad cibernética de primer nivel y
-                    un enfoque integral para la gestión de riesgos. Visite nuestra página web [RebelTech Solutions]
+                    un enfoque integral para la gestión de riesgos. Visite <a href="https://www.xcitium.com/">xcitium</a>
                     para más información
                 </p>
             </div>
