@@ -169,7 +169,7 @@ const Sendmarc: React.FC = () => {
                     protección integral para el ecosistema de correo electrónico de una organización, asegurando
                     autenticidad, integridad y confiabilidad en la comunicación por correo electrónico. Para obtener
                     más información sobre cómo estas soluciones pueden beneficiar a su negocio, visite la
-                    páginas web de <a className="text-[#EFCE40] font-bold"  href="https://www.xcitium.com/">Sendmarc</a>.
+                    página web de <a className="text-[#EFCE40] font-bold"  href="https://www.xcitium.com/">Sendmarc</a>.
                 </p>
             </div>
         </div>
