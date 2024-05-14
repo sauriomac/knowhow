@@ -69,7 +69,7 @@ const Layout = ({ children }: LayoutProps) => {
       {children}
 
 
-      <footer className="w-full bg-brightRed text-white p-4 md:p-12">
+      <footer className="w-full bg-brighredmobile  text-white p-4 md:p-12">
         <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className='col-span-1 md:col-span-3'>
             <Image src={logoRebelBl} alt="Logo" className="w-1/2 md:w-1/5 mb-5 mx-auto" />

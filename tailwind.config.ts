@@ -16,7 +16,8 @@ const config: Config = {
         'custom-gradient': 'linear-gradient(180deg, #f57f57, #8c52ff, #8c52ff)'
       },
       colors: {
-        brightRed: '#db0202', // color personalizado
+        brightRed: '#db0202',
+        brighredmobile:'#df0101', // color personalizado
       },
     },
   },
