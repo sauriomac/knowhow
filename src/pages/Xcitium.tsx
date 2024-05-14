@@ -16,7 +16,7 @@ const Xcitium: React.FC = () => {
       <p className="px-4 md:px-20 pt-0 pb-16 text-2xl md:text-3xl font-bold tracking-wider text-center text-[#EFCE40]">
         Soluciones y Servicios de Xcitium Ofrecidos por RebelTech Solutions
       </p>
-      <p className="px-4 md:px-40 pt-8 text-base md:text-lg lg:text-xl text-center md:text-left lg:leading-relaxed">
+      <p className="px-4 md:px-40 pt-8 text-base md:text-lg lg:text-xl  md:text-left lg:leading-relaxed">
         En <span className="font-semibold text-[#EFCE40]">RebelTech Solutions</span> como socio de Xcitium, proporciona avanzadas soluciones de ciberseguridad aprovechando la tecnología patentada de Xcitium para proteger organizaciones contra amenazas digitales. Esta colaboración incluye productos como Xcitium Advanced (EPP+EDR), Managed (MDR) y Complete (XDR), y servicios como respuesta a incidentes y caza de amenazas, fortaleciendo la seguridad empresarial sin afectar la productividad. Además, RebelTech Solutions recibe formación y soporte técnico continuo de Xcitium, asegurando una implementación eficaz y asesoramiento experto en estrategias de protección para negocios. Este compromiso conjunto garantiza un enfoque integral en la gestión de riesgos de seguridad, ofreciendo a los clientes soluciones de ciberseguridad de primer nivel.
       </p>
     </div>
@@ -59,13 +59,13 @@ const Xcitium: React.FC = () => {
     </div>
     <div className="my-8 w-full md:w-4/5 mx-auto pb-3 lg:leading-relaxed">
       <h2 className="py-4 text-xl md:text-2xl lg:text-3xl font-bold mb-2 text-[#EFCE40] text-center md:text-left">Servicios de Respuesta a Incidentes y Caza de Amenazas Gestionadas</h2>
-      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-4">&#8226;</span>Servicios especializados para la identificación y mitigación de amenazas.</p>
-      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-4">&#8226;</span>Soporte experto en respuesta a incidentes y caza proactiva de amenazas.</p>
+      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-1">&#8226;</span>Servicios especializados para la identificación y mitigación de amenazas.</p>
+      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-1">&#8226;</span>Soporte experto en respuesta a incidentes y caza proactiva de amenazas.</p>
     </div>
     <div className="my-8 w-full md:w-4/5 mx-auto pb-8">
       <h2 className="py-4 text-xl md:text-2xl lg:text-3xl font-bold mb-2 text-[#EFCE40] text-center md:text-left">Servicios Profesionales y de Soporte de Xcitium</h2>
-      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-4">&#8226;</span>Apoyo técnico y profesional para implementación y mantenimiento.</p>
-      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-4">&#8226;</span>Implementación efectiva y soporte continuo en soluciones de seguridad.</p>
+      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-1">&#8226;</span>Apoyo técnico y profesional para implementación y mantenimiento.</p>
+      <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left"><span className="font-bold px-1">&#8226;</span>Implementación efectiva y soporte continuo en soluciones de seguridad.</p>
     </div>
     <div className="my-8 w-full md:w-4/5 mx-auto pb-16">
       <p className="text-base md:text-lg lg:text-xl px-2 text-center md:text-left lg:leading-relaxed">
