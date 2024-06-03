@@ -16,7 +16,7 @@ const Page: React.FC = () => {
     <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16 md:block hidden" />
     <div className="flex flex-col md:flex-row mt-20">
       <div className="w-full md:w-1/2 md:px-0 md:ml-48 px-4">
-        <p className="lg:text-[34px] font-bold text-red-700 mt-12 text-center md:text-left">
+        <p className="lg:text-[33px] font-bold text-red-700 mt-12 text-center md:text-left">
           ¿Cómo asegurarás la excelencia operativa en un mundo digital que evoluciona constantemente?
         </p>
         <p className="lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
