@@ -13,7 +13,7 @@ const Page: React.FC = () => {
   return (
     <>
   <div className="w-full pt-12">
-    <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16" />
+    <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16 md:block hidden" />
     <div className="flex flex-col md:flex-row mt-20">
       <div className="w-full md:w-1/2 md:px-0 md:ml-48 px-4">
         <p className="lg:text-[34px] font-bold text-red-700 mt-12 text-center md:text-left">
