@@ -10,7 +10,7 @@ exports.handler = async function(event, context) {
   const transporter = nodemailer.createTransport({
     host: 'smtp.office365.com',
     port: 587,
-    secure: false, // Necesario para el puerto 587
+    secure: false, // esto es Necesario para el puerto 587
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
