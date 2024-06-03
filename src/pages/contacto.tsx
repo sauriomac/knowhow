@@ -1,95 +1,95 @@
-import { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React, { useState } from 'react';
 import logoRebel from '../public/logo.png';
-import hamburgerIcon from '../public/hamburgerIcon.png';
-import closeIcon from '../public/closeIcon3.png';
+import Image from 'next/image';
 
-const Navbar = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isSubMenuVisible, setSubMenuVisible] = useState(false);
-  const [isSecondLevelMenuVisible, setSecondLevelMenuVisible] = useState(false);
-  const [isHoveringSubMenu, setIsHoveringSubMenu] = useState(false);
+const Contacto: React.FC = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
 
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
   };
 
-  const closeMenu = () => {
-    setMenuOpen(false);
-    setSubMenuVisible(false);
-    setSecondLevelMenuVisible(false);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const response = await fetch('/.netlify/functions/sendEmail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    });
 
-  const toggleSubMenu = () => {
-    setSubMenuVisible(!isSubMenuVisible);
-    if (isSecondLevelMenuVisible) {
-      setSecondLevelMenuVisible(false);
+    if (response.ok) {
+      alert('Email enviado correctamente');
+      setFormData({ name: '', email: '', message: '' });
+    } else {
+      alert('Error al enviar el email');
     }
   };
 
-  const toggleSecondLevelMenu = () => {
-    setSecondLevelMenuVisible(!isSecondLevelMenuVisible);
-  };
-
-  const handleMouseEnter = () => {
-    setIsHoveringSubMenu(true);
-  };
-
-  const handleMouseLeave = () => {
-    setSubMenuVisible(false);
-    setSecondLevelMenuVisible(false);
-  };
-
   return (
-    <nav className="p-10">
-      <div className="flex justify-between items-center md:justify-center">
-        <Link href="/" className="md:hidden">
-          <Image src={logoRebel} alt="Logo" width={180} height={60} />
-        </Link>
-        <div className="text-white md:hidden" onClick={toggleMenu}>
-          <Image src={isMenuOpen ? closeIcon : hamburgerIcon} alt="Menu" width={isMenuOpen ? 24 : 72} height={isMenuOpen ? 24 : 72} />
+    <>
+      <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16 md:block hidden" />
+      <section className="w-full p-4 md:p-12 ">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-4xl font-bold text-center text-yellow-300 mb-8">Contáctanos</h2>
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div>
+              <label htmlFor="name" className="block text-sm font-medium text-yellow-300">Nombre</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                value={formData.name}
+                onChange={handleChange}
+                className="text-black  mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-yellow-300">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value={formData.email}
+                onChange={handleChange}
+                className="text-black mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="message" className="block text-sm font-medium text-yellow-300">Mensaje</label>
+              <textarea
+                name="message"
+                id="message"
+                value={formData.message}
+                onChange={handleChange}
+                className="text-black mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                rows={4}
+                required
+              />
+            </div>
+            <div>
+              <button
+                type="submit"
+                className="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
         </div>
-      </div>
-      <div className={`md:flex md:justify-center ${isMenuOpen ? 'block' : 'hidden'}`}>
-        <div className="flex flex-col items-start mt-4 md:flex-row md:mt-0">
-          <Link href="/" className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium md:border-r" onClick={closeMenu}>Inicio</Link>
-          <Link href="/#" className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium md:border-r" onClick={closeMenu}>Quiénes Somos</Link>
-          <div className="relative md:block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <button onClick={toggleSubMenu} className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium flex justify-between items-center md:border-r">
-              Soluciones
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isSubMenuVisible ? "M19 9l-7 7-7-7" : "M9 5l7 7-7 7"}></path>
-              </svg>
-            </button>
-            {isSubMenuVisible && (
-              <div className="absolute left-0 mt-2 bg-gray-700 md:top-full md:left-4 md:bg-transparent md:shadow-none" onMouseEnter={() => setIsHoveringSubMenu(true)} onMouseLeave={handleMouseLeave}>
-                <div className="bg-gray-700 md:bg-gray-800">
-                  <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>Data</Link>
-                  <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600 " onClick={closeMenu}>Desarrollo</Link>
-                  <div className="relative">
-                    <Link onClick={toggleSecondLevelMenu} className="hover:text-fuchsia-600 text-white px-3 py-2 md:text-sm w-full flex justify-between items-center" href="">
-                      Ciberseguridad
-                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isSecondLevelMenuVisible ? "M19 9l-7 7-7-7" : "M9 5l7 7-7 7"}></path>
-                      </svg>
-                    </Link>
-                    {isSecondLevelMenuVisible && (
-                      <div className="bg-gray-700 md:w-auto" onMouseEnter={() => setIsHoveringSubMenu(true)} onMouseLeave={handleMouseLeave}>
-                        <Link href="/Xcitium" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>Xcitium</Link>
-                        <Link href="/Sendmarc" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>Sendmarc</Link>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-          <Link href="/contacto" className="text-white px-3 py-px md:text-[26px] font-medium text-xl tracking-widest" onClick={closeMenu}>Contacto</Link>
-        </div>
-      </div>
-    </nav>
+      </section>
+    </>
   );
 };
 
-export default Navbar;
+export default Contacto;

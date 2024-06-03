@@ -31,15 +31,6 @@ const Navbar = () => {
     setSecondLevelMenuVisible(!isSecondLevelMenuVisible);
   };
 
-  const handleMouseEnter = () => {
-    setSubMenuVisible(true);
-  };
-
-  const handleMouseLeave = () => {
-    setSubMenuVisible(false);
-    setSecondLevelMenuVisible(false);
-  };
-
   return (
     <nav className="p-10">
       <div className="flex justify-between items-center md:justify-center">
@@ -47,15 +38,14 @@ const Navbar = () => {
           <Image src={logoRebel} alt="Logo" width={180} height={60} />
         </Link>
         <div className="text-white md:hidden" onClick={toggleMenu}>
-        <Image src={isMenuOpen ? closeIcon : hamburgerIcon} alt="Menu" width={isMenuOpen ? 24 : 72} height={isMenuOpen ? 24 : 72} />
-
+          <Image src={isMenuOpen ? closeIcon : hamburgerIcon} alt="Menu" width={isMenuOpen ? 24 : 72} height={isMenuOpen ? 24 : 72} />
         </div>
       </div>
       <div className={`md:flex md:justify-center ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="flex flex-col items-start mt-4 md:flex-row md:mt-0">
           <Link href="/" className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium md:border-r" onClick={closeMenu}>Inicio</Link>
           <Link href="/#" className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium md:border-r" onClick={closeMenu}>Quiénes Somos</Link>
-          <div className="relative md:block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <div className="relative md:block">
             <button onClick={toggleSubMenu} className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium flex justify-between items-center md:border-r">
               Soluciones
               <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -63,17 +53,17 @@ const Navbar = () => {
               </svg>
             </button>
             {isSubMenuVisible && (
-              <div className="absolute left-0 mt-2 bg-gray-700 md:top-full md:left-4 md:bg-transparent md:shadow-none">
+              <div className="absolute left-0 mt-2 bg-gray-700 md:top-full md:left-0 md:bg-transparent md:shadow-none">
                 <div className="bg-gray-700 md:bg-gray-800">
                   <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>Data</Link>
-                  <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600 " onClick={closeMenu}>Desarrollo</Link>
+                  <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>Desarrollo</Link>
                   <div className="relative">
-                    <Link  onClick={toggleSecondLevelMenu} className="hover:text-fuchsia-600 text-white px-3 py-2 md:text-sm w-full flex justify-between items-center" href={''}>
+                    <button onClick={toggleSecondLevelMenu} className="hover:text-fuchsia-600 text-white px-3 py-2 md:text-sm w-full flex justify-between items-center">
                       Ciberseguridad
                       <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isSecondLevelMenuVisible ? "M19 9l-7 7-7-7" : "M9 5l7 7-7 7"}></path>
                       </svg>
-                    </Link>
+                    </button>
                     {isSecondLevelMenuVisible && (
                       <div className="bg-gray-700 md:w-auto">
                         <Link href="/Xcitium" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>Xcitium</Link>
