@@ -10,19 +10,22 @@ exports.handler = async function(event, context) {
   const transporter = nodemailer.createTransport({
     host: 'smtp.office365.com',
     port: 587,
-    secure: false, // esto es Necesario para el puerto 587
+    secure: false, // true para 465, false para otros puertos como 587
     auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
+        user: process.env.EMAIL_USER, // Tu dirección de correo de Microsoft 365
+        pass: process.env.EMAIL_PASS, // Contraseña o contraseña de aplicación
+    },
+    tls: {
+        ciphers: 'SSLv3'
     }
-  });
+});
 
-  const mailOptions = {
-    from: email, // Debe ser igual al 'user'
-    to: process.env.EMAIL_USER,
-    subject: subject,
-    text: message,
-  };
+const mailOptions = {
+  from: process.env.EMAIL_USER, // Tu correo electrónico de Microsoft 365
+  to: process.env.EMAIL_USER, // Tu mismo correo para recibir la notificación
+  subject: subject,
+  text: message,
+};
 
   try {
     await transporter.sendMail(mailOptions);
