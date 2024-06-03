@@ -18,8 +18,8 @@ exports.handler = async function(event, context) {
   });
 
   const mailOptions = {
-    from: process.env.EMAIL_USER, // Debe ser igual al 'user'
-    to: email,
+    from: email, // Debe ser igual al 'user'
+    to: process.env.EMAIL_USER,
     subject: subject,
     text: message,
   };
