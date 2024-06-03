@@ -8,15 +8,20 @@ exports.handler = async function(event, context) {
   const { email, subject, message } = JSON.parse(event.body);
 
   const transporter = nodemailer.createTransport({
-    service: 'Outlook365', // Cambia esto según tu servicio de correo
+    host: 'smtp.office365.com',
+    port: 587,
+    secure: false, // Necesario para el puerto 587
     auth: {
-      user: process.env.EMAIL_USER, // Asegúrate de configurar estas variables en Netlify
+      user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
     },
+    tls: {
+      ciphers: 'SSLv3'
+    }
   });
 
   const mailOptions = {
-    from: process.env.EMAIL_USER,
+    from: process.env.EMAIL_USER, // Debe ser igual al 'user'
     to: email,
     subject: subject,
     text: message,
@@ -29,9 +34,10 @@ exports.handler = async function(event, context) {
       body: JSON.stringify({ message: 'Email sent successfully' }),
     };
   } catch (error) {
+    console.error('Error sending email:', error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: 'Failed to send email' }),
+      body: JSON.stringify({ error: 'Failed to send email', details: error.message }),
     };
   }
 };
