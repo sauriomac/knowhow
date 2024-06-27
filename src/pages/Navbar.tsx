@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link href="/" className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium md:border-r" onClick={closeMenu}>
             Inicio
           </Link>
-          <Link href="/#" className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium md:border-r" onClick={closeMenu}>
+          <Link href="/quienes-somos" className="text-white px-3 py-px md:text-[26px] text-xl tracking-widest font-medium md:border-r" onClick={closeMenu}>
             Quiénes Somos
           </Link>
           <div className="relative md:block">
@@ -67,7 +67,7 @@ const Navbar = () => {
                   <Link href="/Data" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>
                     Data
                   </Link>
-                  <Link href="/#" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>
+                  <Link href="/Desarrollo" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>
                     Desarrollo
                   </Link>
                   <div className="relative">
