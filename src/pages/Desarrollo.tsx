@@ -4,7 +4,26 @@
     import square1 from '../public/icon-purple-cloud2.webp';
     import square2 from '../public/icon-cloud.webp';
     import square3 from '../public/icon-purple-hexa.webp';
-    import square4 from '../public/icon-net.png';
+    import java from '../public/java.png';
+    import python from '../public/python.png';
+    import cs from '../public/hashtag.png';
+    import js from '../public/js.png';
+    import msql from '../public/mysql.png';
+    import psql from '../public/postgre.png';
+    import mdb from '../public/mongodb_compass_macos_bigsur_icon_189933.png';
+    import sqls from '../public/pngegg.png';
+    import angular from '../public/angular.png';
+    import react from '../public/react.png';
+    import net from '../public/net.png';
+    import django from '../public/djan.png';
+    import aws from '../public/aws.png';
+    import azure from '../public/azure.png';
+    import google from '../public/google.png';
+    import block from '../public/block.png';
+    import lot from '../public/lot.png';
+    import ai from '../public/ai.png';
+
+
     import logoRo from '../public/1.png';
     import logoRo2 from '../public/2.png';
     import logoSendm from '../public/logo-sendmarc.png';
@@ -67,10 +86,10 @@
     Utilizamos lenguajes modernos y versátiles como Java, Python, JavaScript, C#, entre otros, para ofrecer soluciones robustas y eficientes.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
-    <Image src={square2}  alt="Java" className="w-10 h-10" />
-    <Image src={square2}  alt="Python" className="w-10 h-10" />
-    <Image src={square2}  alt="JavaScript" className="w-10 h-10" />
-    <Image src={square2}  alt="C#" className="w-10 h-10" />
+    <Image src={java}  alt="Java" className="w-10 h-10" />
+    <Image src={python}  alt="Python" className="w-10 h-10" />
+    <Image src={cs}  alt="JavaScript" className="w-10 h-10" />
+    <Image src={js}  alt="C#" className="w-10 h-10" />
   </div>
 </div>
 
@@ -82,10 +101,10 @@
     Somos expertos en manejar diversas bases de datos como MySQL, PostgreSQL, MongoDB y SQL Server, asegurando la integridad y seguridad de tus datos.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
-    <Image src={square2} alt="MySQL" className="w-10 h-10" />
-    <Image src={square2} alt="PostgreSQL" className="w-10 h-10" />
-    <Image src={square2}  alt="MongoDB" className="w-10 h-10" />
-    <Image src={square2}  alt="SQL Server" className="w-10 h-10" />
+    <Image src={msql} alt="MySQL" className="w-10 h-10" />
+    <Image src={psql} alt="PostgreSQL" className="w-10 h-10" />
+    <Image src={mdb}  alt="MongoDB" className="w-10 h-10" />
+    <Image src={sqls}  alt="SQL Server" className="w-10 h-10" />
   </div>
 </div>
 
@@ -97,10 +116,10 @@
     Implementamos frameworks de alto rendimiento como Angular, React, Django y .NET, que nos permiten desarrollar aplicaciones escalables y de alta calidad.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
-    <Image src={square2}  alt="Angular" className="w-10 h-10" />
-    <Image src={square2}  alt="React" className="w-10 h-10" />
-    <Image src={square2}  alt="Django" className="w-10 h-10" />
-    <Image src={square2}  alt=".NET" className="w-10 h-10" />
+    <Image src={angular}  alt="Angular" className="w-10 h-10" />
+    <Image src={react}  alt="React" className="w-10 h-10" />
+    <Image src={django}  alt="Django" className="w-10 h-10" />
+    <Image src={net}  alt=".NET" className="w-10 h-10" />
   </div>
 </div>
 
@@ -112,9 +131,9 @@
     Nos apoyamos en plataformas de nube líderes como AWS, Azure y Google Cloud para ofrecer soluciones flexibles y seguras.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
-    <Image src={square2}  alt="AWS" className="w-10 h-10" />
-    <Image src={square2}  alt="Azure" className="w-10 h-10" />
-    <Image src={square2} alt="Google Cloud" className="w-10 h-10" />
+    <Image src={aws}  alt="AWS" className="w-10 h-10" />
+    <Image src={azure}  alt="Azure" className="w-10 h-10" />
+    <Image src={google} alt="Google Cloud" className="w-10 h-10" />
   </div>
 </div>
 
@@ -126,9 +145,9 @@
     Estamos a la vanguardia en la implementación de tecnologías emergentes como Blockchain, Internet de las Cosas (IoT) y Machine Learning, abriendo un abanico de posibilidades para innovar en tu negocio.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
-    <Image src={square2}  alt="Blockchain" className="w-10 h-10" />
-    <Image src={square2}  alt="IoT" className="w-10 h-10" />
-    <Image src={square2}  alt="Machine Learning" className="w-10 h-10" />
+    <Image src={block}  alt="Blockchain" className="w-10 h-10" />
+    <Image src={lot}  alt="IoT" className="w-10 h-10" />
+    <Image src={ai}  alt="Machine Learning" className="w-10 h-10" />
   </div>
 </div>
         
