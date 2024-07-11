@@ -85,7 +85,7 @@ const Page: React.FC = () => {
       <div className="w-full md:w-3/5 px-10 md:px-10 md:ml-96">
         <p className="lg:text-[24px] mt-8 text-left font-bold text-2xl leading-normal text-[#EFCE40]">PROTEJA EL NOMBRE DE SU MARCA</p>
         <p className="text-white lg:text-[23px] mt-1 text-left font-bold text-2xl leading-normal lg:leading-relaxed">
-          Sendmarc se asegura de que todos los correos electrónicos recibidos que llevan su nombre sean reales.
+          Sendmarc se asegura de que todos los correos salientes estén protegido.
         </p>
       </div>
     </div>
