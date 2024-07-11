@@ -88,7 +88,7 @@ const Sendmarc: React.FC = () => {
             <div className="w-full flex flex-col lg:flex-row mt-4">
               <div className="w-full lg:w-2/4 mb-8 lg:mb-0"></div>
               <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
-                <h2 className="text-2xl md:text-3xl text-center lg:text-left">
+                <h2 className="text-white text-2xl md:text-3xl text-center lg:text-left">
                   <span className="font-bold text-[#EFCE40]">10,5</span> billones de
                   <span className="font-bold text-[#EFCE40]"> dólares </span>
                 </h2>
