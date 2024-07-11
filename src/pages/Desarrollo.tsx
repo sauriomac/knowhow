@@ -38,7 +38,7 @@
     <p className="lg:text-[33px] font-bold text-[#EFCE40] mt-12 text-center md:text-left">
       Soluciones de Desarrollo
     </p>
-    <p className="lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
+    <p className="text-white lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
       En RebelTech Solutions, ampliamos nuestra pasión por la excelencia y la innovación al campo del desarrollo de software a medida. Somos una empresa especializada que entiende y se adapta a las necesidades únicas de cada negocio. Nuestro equipo de desarrolladores no solo está altamente capacitado, sino también inspirado por una filosofía de trabajo que busca constantemente superar los estándares de calidad y servicio.
     </p>
   </div>
@@ -82,7 +82,7 @@
   <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
     Lenguajes de Programación
   </p>
-  <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+  <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
     Utilizamos lenguajes modernos y versátiles como Java, Python, JavaScript, C#, entre otros, para ofrecer soluciones robustas y eficientes.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
@@ -97,7 +97,7 @@
   <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
     Bases de Datos
   </p>
-  <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+  <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
     Somos expertos en manejar diversas bases de datos como MySQL, PostgreSQL, MongoDB y SQL Server, asegurando la integridad y seguridad de tus datos.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
@@ -112,7 +112,7 @@
   <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
     Frameworks
   </p>
-  <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+  <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
     Implementamos frameworks de alto rendimiento como Angular, React, Django y .NET, que nos permiten desarrollar aplicaciones escalables y de alta calidad.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
@@ -127,7 +127,7 @@
   <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
     Infraestructura en la Nube
   </p>
-  <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+  <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
     Nos apoyamos en plataformas de nube líderes como AWS, Azure y Google Cloud para ofrecer soluciones flexibles y seguras.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
@@ -141,7 +141,7 @@
   <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
     Tecnologías Emergentes
   </p>
-  <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+  <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
     Estamos a la vanguardia en la implementación de tecnologías emergentes como Blockchain, Internet de las Cosas (IoT) y Machine Learning, abriendo un abanico de posibilidades para innovar en tu negocio.
   </p>
   <div className="flex justify-start space-x-4 mt-4">
@@ -156,7 +156,7 @@
     <p className="lg:text-[24px] mt-8 text-left font-bold text-xl leading-normal text-[#EFCE40]">
         Outsourcing
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Ofrecemos perfiles tecnológicos y de negocio altamente capacitados que ayudan a cumplir las necesidades de nuestros clientes, entregando un servicio de calidad desde el primer día.
     </p>
 </div>
@@ -165,7 +165,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Levantamiento e Ideación de Soluciones
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Gestionamos y ayudamos a generar ideas para convertirlas en requerimientos técnicos y funcionales, especificando cada funcionalidad, casos de uso, modelos de datos y la arquitectura necesaria.
     </p>
 </div>
@@ -174,7 +174,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Usabilidad de Sitios Web y Apps
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Diseñamos funcionalidades intuitivas que facilitan la adopción de nuevos módulos para apoyar al negocio. Analizamos la experiencia del usuario para presentar la información de forma que permita interactuar y completar tareas de manera fluida.
     </p>
 </div>
@@ -183,7 +183,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Construcción y Producción de Sistemas
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Desarrollamos software a medida a partir de requerimientos de sistema, estimando previamente el esfuerzo y planificando detalladamente cada actividad. Acompañamos y apoyamos la puesta en producción y su marcha blanca.
     </p>
 </div>
@@ -192,7 +192,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Mantenciones Correctivas y Evolutivas
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Tomamos el control funcional y técnico de sistemas desarrollados por terceros, resolviendo problemas o desarrollando nuevas funcionalidades. Establecemos acuerdos de nivel de servicio para cumplir con la calidad y tiempos esperados.
     </p>
 </div>
@@ -201,7 +201,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Reingeniería
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Documentamos funcionalidades, reglas de negocio y estructuras de sistemas existentes para generar nuevas soluciones, integrándolas con otros sistemas o expandiendo sus capacidades.
     </p>
 </div>
@@ -210,7 +210,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Optimización de Sistemas
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Identificamos infraestructuras, monitoreamos en escenarios extremos e identificamos cuellos de botella, estableciendo prioridades y definiendo planes de mejora para cumplir métricas de tiempos de respuesta y uso de recursos.
     </p>
 </div>
@@ -219,7 +219,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Estrategia Digital y Transformación
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Definimos e implementamos estrategias digitales efectivas que mejoran la competitividad y eficiencia operativa, cubriendo desde la consultoría inicial hasta la implementación de soluciones tecnológicas.
     </p>
 </div>
@@ -228,7 +228,7 @@
     <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
         Seguridad y Cumplimiento Normativo
     </p>
-    <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+    <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
         Aseguramos que todas nuestras soluciones cumplan con los más altos estándares de seguridad y normativas vigentes, protegiendo la integridad y confidencialidad de los datos de nuestros clientes.
     </p>
 </div>

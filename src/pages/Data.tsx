@@ -18,7 +18,7 @@ const Data: React.FC = () =>  {
               <div className="w-full md:w-1/2 md:px-0 md:ml-48 px-4">
                 <p className="lg:text-[33px] font-bold text-[#EFCE40] mt-12 text-center md:text-left">
                 Soluciones Data                </p>
-                <p className="lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
+                <p className="text-white lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
                 En RebelTech Solutions, ofrecemos una gama integral de servicios especializados en el análisis de datos para impulsar el éxito de tu empresa. Con una combinación única de experiencia académica y práctica en campos avanzados como la astrofísica y la astronomía, nuestros expertos están equipados para abordar cualquier desafío de datos que enfrentes.                </p>
               </div>
               <div className="w-full md:w-1/2 flex justify-center md:justify-start">
@@ -74,7 +74,7 @@ Machine Learning:
                   <p className="lg:text-[24px] text-left font-bold text-xl leading-normal text-[#EFCE40]">
                     Data Science y Análisis de Datos
                   </p>
-                  <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+                  <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
                     RebelTech Solutions ofrece servicios de Data Science compuestos por profesionales con una profunda experiencia académica y práctica en campos como la astrofísica y la astronomía, complementada con estudios avanzados en data science y análisis de datos. Nos especializamos en:
                     <ul className="list-disc list-inside">
                       <li className="mt-5">Modelado Predictivo: Utilizamos técnicas avanzadas para predecir tendencias y comportamientos futuros.</li>
@@ -89,7 +89,7 @@ Machine Learning:
                 <p className="lg:text-[24px] mt-8 text-left font-bold  text-xl leading-normal text-[#EFCE40]">
                 Business Analytics y Decisiones Estratégicas
                 </p>
-                <p className="lg:text-[23px] mt-1 text-left  text-2xl lg:leading-relaxed leading-normal">
+                <p className="text-white lg:text-[23px] mt-1 text-left  text-2xl lg:leading-relaxed leading-normal">
                 Nuestro servicio de Business Analytics y Decisiones Estratégicas es esencial para ayudar a tu empresa a crecer de manera sostenible. Utilizamos análisis de datos avanzados y técnicas de optimización para:
 
 Pronósticos Precisos: Realizamos pronósticos financieros y de mercado para prever el futuro de tu negocio.
@@ -102,7 +102,7 @@ Recomendaciones Estratégicas: Identificamos oportunidades de crecimiento y opti
                 <p className="lg:text-[24px] mt-8 text-left  text-xl font-bold  leading-normal text-[#EFCE40]">
                 Análisis de Datos y Visualización
                 </p>
-                <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+                <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
                 Nuestro servicio de Análisis de Datos y Visualización se enfoca en ayudar a tu empresa a desentrañar los insights ocultos en tus datos. Ofrecemos:
 Visualizaciones Interactivas: Creamos gráficos y dashboards que permiten comprender mejor los patrones y tendencias.
 Identificación de KPIs: Definimos y medimos indicadores clave de rendimiento para tu negocio.
@@ -114,18 +114,18 @@ Informes Detallados: Proporcionamos informes que respaldan la toma de decisiones
                 <p className="lg:text-[24px] mt-8 text-left text-xl font-bold leading-normal text-[#EFCE40]">
                 Consultoría en Datos y Machine Learning
                 </p>
-                <p className="lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
+                <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
                 Nuestro servicio de Consultoría en Datos y Machine Learning está diseñado para ayudar a las empresas a sacar el máximo provecho de sus datos. <p className="mt-3 mb-2">Ofrecemos un enfoque integral que incluye:</p>
                 </p>
-                <p className="lg:text-[23px] mt-5 text-left text-2xl lg:leading-relaxed leading-normal">
+                <p className="text-white lg:text-[23px] mt-5 text-left text-2xl lg:leading-relaxed leading-normal">
                 Evaluación de Necesidades: Analizamos las necesidades específicas de tu empresa.
 
                 </p>
-                <p className="lg:text-[23px] mt-5 text-left text-2xl lg:leading-relaxed leading-normal">
+                <p className="text-white lg:text-[23px] mt-5 text-left text-2xl lg:leading-relaxed leading-normal">
                 Selección de Herramientas y Técnicas: Elegimos las mejores herramientas y técnicas de machine learning para tu caso.
 
                 </p>
-                <p className="lg:text-[23px] mt-5 text-left text-2xl lg:leading-relaxed leading-normal">
+                <p className="text-white lg:text-[23px] mt-5 text-left text-2xl lg:leading-relaxed leading-normal">
                 Implementación de Modelos: Desarrollamos e implementamos modelos personalizados para mejorar la eficiencia, optimizar procesos y tomar decisiones informadas.
                 </p>
               </div>

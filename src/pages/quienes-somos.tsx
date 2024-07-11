@@ -14,22 +14,22 @@ const QuienesSomos: React.FC = () => {
             <p className="lg:text-[33px] font-bold text-red-700 mt-12 text-center md:text-left">
               QUIÉNES SOMOS
             </p>
-            <p className="lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
+            <p className="text-white lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
               En RebelTech Solutions, nuestra filosofía se centra en la excelencia y la innovación para abordar los desafíos tecnológicos empresariales. Con más de 10 años de experiencia, ayudamos a construir productos de software a compañías que buscan innovación y crecimiento. Nacemos de la necesidad de brindar un apoyo cercano a nuestros clientes en el desarrollo de su negocio, utilizando Tecnologías de la Información con alta eficacia y desempeño.
             </p>
-            <p className="lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
+            <p className="text-white lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
               <strong className='text-yellow-300 '>Valores</strong><br/>
               RebelTech Solutions no es solo una compañía, sino un grupo de personas motivadas y de excelencia, a quienes cuidamos como nuestro mayor activo. Trabajamos con calidad, compromiso, entusiasmo e innovación.
             </p>
-            <p className="lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
+            <p className="text-white lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
             <strong className='text-yellow-300 '>Misión</strong><br/>
               Proveer a nuestros clientes de las mejores soluciones TI personalizadas, buscando constantemente mejoras en los procesos tecnológicos. Nuestro equipo, versátil y comprometido, nos permite formar relaciones duraderas con nuestros clientes.
             </p>
-            <p className="lg:text-[23px] mt-8 text-left text- text-sm md:text-base lg:leading-relaxed">
+            <p className="text-white lg:text-[23px] mt-8 text-left text- text-sm md:text-base lg:leading-relaxed">
             <strong className='text-yellow-300 '>Visión</strong><br/>
               Destacarnos por nuestra efectividad y robustez, llegando a ser la primera opción para nuestros clientes cuando necesitan apoyo tecnológico y de negocio en sus distintas áreas corporativas.
             </p>
-            <p className="lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
+            <p className="text-white lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
             <strong className='text-yellow-300 '>Fortalezas</strong><br/>
               <strong>Creatividad:</strong> Somos una empresa con mentalidad creativa, en constante búsqueda de nuevas soluciones.<br/>
               <strong>Experiencia:</strong> Contamos con una experiencia tecnológica clave en cada uno de nuestros integrantes.<br/>
@@ -45,7 +45,7 @@ const QuienesSomos: React.FC = () => {
             <Image src={logoExc} alt="Logo" className="mx-auto w-1/2 md:w-1/4 mt-16 mb-28" />
           </a>
           <div className="w-full md:w-3/5 px-10 md:px-10 md:ml-96">
-            <p className="lg:text-[24px] mt-8 text-left font-bold text-xl leading-normal">
+            <p className="text-white lg:text-[24px] mt-8 text-left font-bold text-xl leading-normal">
               Detectar amenazas cibernéticas frente a detener el daño de las amenazas cibernéticas, dos cosas muy diferentes.
             </p>
             <p className="lg:text-[23px] mt-1 text-left font-bold text-2xl lg:leading-relaxed leading-normal text-[#EFCE40]">
@@ -57,7 +57,7 @@ const QuienesSomos: React.FC = () => {
           </a>
           <div className="w-full md:w-3/5 px-10 md:px-10 md:ml-96">
             <p className="lg:text-[24px] mt-8 text-left font-bold text-2xl leading-normal text-[#EFCE40]">PROTEJA EL NOMBRE DE SU MARCA</p>
-            <p className="lg:text-[23px] mt-1 text-left font-bold text-2xl leading-normal lg:leading-relaxed">
+            <p className="text-white lg:text-[23px] mt-1 text-left font-bold text-2xl leading-normal lg:leading-relaxed">
               Sendmarc se asegura de que todos los correos electrónicos recibidos que llevan su nombre sean reales.
             </p>
           </div>
