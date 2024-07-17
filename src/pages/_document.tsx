@@ -5,9 +5,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <title>RebelTech solutions</title>
+        <title>RebelTech Solutions</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
-       
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/favicon.ico" sizes="16x16" type="image/png" />
         </Head>
         <body >
           <Main />
