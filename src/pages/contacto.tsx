@@ -37,7 +37,7 @@ const Contacto: React.FC = () => {
   return (
     <>
       <Image src={logoRebel} alt="Logo" className="mx-auto w-3/6 md:w-2/4 mt-16 md:block hidden" />
-      <section className="w-full p-4 md:p-12 ">
+      <section className="w-full p-4 md:p-12 mb-96">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-bold text-center text-yellow-300 mb-8">Contáctanos</h2>
           <form onSubmit={handleSubmit} className="space-y-6">
