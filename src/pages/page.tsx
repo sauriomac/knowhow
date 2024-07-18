@@ -55,7 +55,7 @@ const Page: React.FC = () => {
         </div>
       </div>
       <div className="md:w-1/3 m-4 mt-1">
-        <div className="md:-mt-28 bg-custom-gradient min-h-[460px] pt-24 p-8 md:p-8 md:pt-4 rounded-md">
+        <div className="md:-mt-28 bg-custom-gradient min-h-[464px] pt-24 p-8 md:p-8 md:pt-4 rounded-md">
           <Image src={square3} alt="Logo" className="mx-auto w-1/4 lg:w-1/4 mt-4" />
           <p className="md:text-[30px] font-bold m-6 md:mt-6 text-[#EFCE40]">Soluciones de Data</p>
           <p className="mt-3 md:text-[24px] lg:leading-relaxed text-white">
