@@ -37,7 +37,7 @@ const Navbar = () => {
         <Link href="/" className="md:hidden">
           <Image src={logoRebel} alt="Logo" width={180} height={60} />
         </Link>
-        <div className="text-white md:hidden" onClick={toggleMenu}>
+        <div className="text-white md:hidden mb-2" onClick={toggleMenu}>
           <Image
             src={isMenuOpen ? closeIcon : hamburgerIcon}
             alt="Menu"
