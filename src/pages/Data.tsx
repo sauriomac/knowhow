@@ -72,7 +72,7 @@ Machine Learning:
                 </div>
                 <div className="w-full md:w-1/2 mt-4 md:mt-0">
                   <p className="lg:text-[24px] text-left font-bold text-xl leading-normal text-[#EFCE40]">
-                    Data Science y Análisis de Datos
+                    Data Science
                   </p>
                   <p className="text-white lg:text-[23px] mt-1 text-left text-2xl lg:leading-relaxed leading-normal">
                     RebelTech Solutions ofrece servicios de Data Science compuestos por profesionales con una profunda experiencia académica y práctica en campos como la astrofísica y la astronomía, complementada con estudios avanzados en data science y análisis de datos. Nos especializamos en:
