@@ -30,8 +30,7 @@ const Data: React.FC = () =>  {
               <div className="md:w-1/3 m-4 mt-1">
                 <div className="md:-mt-28 bg-custom-gradient min-h-[360px] pt-24 p-8 md:p-8 md:pt-4 rounded-md">
                   <Image src={square1} alt="Logo" className="mx-auto w-1/4 lg:w-1/4 mt-4" />
-                  <p className="mt-3 md:text-[30px] md:mt-6 font-bold text-[#EFCE40]">Data Science 
-y Análisis de Datos
+                  <p className="mt-3 md:text-[30px] md:mt-6 font-bold text-[#EFCE40]">Data Science
 </p>
                   
                 </div>
