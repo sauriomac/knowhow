@@ -40,28 +40,6 @@ const QuienesSomos: React.FC = () => {
          
         </div>
 
-        <div className="mt-40 mb-32">
-          <a href="https://www.xcitium.com/">
-            <Image src={logoExc} alt="Logo" className="mx-auto w-1/2 md:w-1/4 mt-16 mb-28" />
-          </a>
-          <div className="w-full md:w-3/5 px-10 md:px-10 md:ml-96">
-            <p className="text-white lg:text-[24px] mt-8 text-left font-bold text-xl leading-normal">
-              Detectar amenazas cibernéticas frente a detener el daño de las amenazas cibernéticas, dos cosas muy diferentes.
-            </p>
-            <p className="lg:text-[23px] mt-1 text-left font-bold text-2xl lg:leading-relaxed leading-normal text-[#EFCE40]">
-              Los EDR, MDR y XDR con alimentación ZeroDwell de detección de Xcitium derrotan las amenazas indetectables y previenen el daño cibernético.
-            </p>
-          </div>
-          <a href="https://sendmarc.com/es/">
-            <Image src={logoSendm} alt="Logo" className="mx-auto w-1/2 md:w-1/4 mt-24 mb-28" />
-          </a>
-          <div className="w-full md:w-3/5 px-10 md:px-10 md:ml-96">
-            <p className="lg:text-[24px] mt-8 text-left font-bold text-2xl leading-normal text-[#EFCE40]">PROTEJA EL NOMBRE DE SU MARCA</p>
-            <p className="text-white lg:text-[23px] mt-1 text-left font-bold text-2xl leading-normal lg:leading-relaxed">
-            Sendmarc se asegura de que todos los correos salientes estén protegido.
-            </p>
-          </div>
-        </div>
       </div>
     </>
   );

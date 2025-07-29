@@ -79,12 +79,7 @@ const Navbar = () => {
                     </button>
                     {isSecondLevelMenuVisible && (
                       <div className="bg-gray-700 md:w-auto">
-                        <Link href="/Xcitium" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>
-                          Xcitium
-                        </Link>
-                        <Link href="/Sendmarc" className="block text-white px-3 py-2 md:text-sm hover:text-fuchsia-600" onClick={closeMenu}>
-                          Sendmarc
-                        </Link>
+                        
                       </div>
                     )}
                   </div>
