@@ -39,7 +39,9 @@
       Soluciones de Desarrollo
     </p>
     <p className="text-white lg:text-[23px] mt-8 text-left text-sm md:text-base lg:leading-relaxed">
-      En RebelTech Solutions, ampliamos nuestra pasión por la excelencia y la innovación al campo del desarrollo de software a medida. Somos una empresa especializada que entiende y se adapta a las necesidades únicas de cada negocio. Nuestro equipo de desarrolladores no solo está altamente capacitado, sino también inspirado por una filosofía de trabajo que busca constantemente superar los estándares de calidad y servicio.
+      En RebelTech Solutions, Decisiones que transforman con datos reales.
+Aplicamos ciencia de datos para convertir la información en estrategias inteligentes. Desde analítica avanzada hasta modelos predictivos, desbloqueamos insights clave que impulsan la innovación, optimizan recursos y elevan el rendimiento de tu empresa.
+Desarrollamos experiencias inmersivas con tecnologías de realidad aumentada, realidad virtual y videojuegos personalizados. Utilizamos plataformas como Unity, Unreal Engine y WebXR para crear soluciones que conectan con tus usuarios, transforman la capacitación, el marketing y el entretenimiento empresarial.
     </p>
   </div>
   <div className="w-full md:w-1/2 flex justify-center md:justify-start">

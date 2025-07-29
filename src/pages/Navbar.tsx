@@ -73,9 +73,6 @@ const Navbar = () => {
                   <div className="relative">
                     <button onClick={toggleSecondLevelMenu} className="hover:text-fuchsia-600 text-white px-3 py-2 md:text-sm w-full flex justify-between items-center">
                       Ciberseguridad
-                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isSecondLevelMenuVisible ? 'M19 9l-7 7-7-7' : 'M9 5l7 7-7 7'}></path>
-                      </svg>
                     </button>
                     {isSecondLevelMenuVisible && (
                       <div className="bg-gray-700 md:w-auto">
